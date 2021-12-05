@@ -3,7 +3,7 @@ const { MongoClient } = require('mongodb');
 // import { MongoClient } from 'mongodb'
 
 // Connection URL
-const url = "mongodb://localhost:4444/test"
+const url = 'mongodb://mongo:27017/user'
 const client = new MongoClient(url,{
   useNewUrlParser: true,
   useUnifiedTopology: false
