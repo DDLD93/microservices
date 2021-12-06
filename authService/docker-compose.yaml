@@ -3,7 +3,7 @@ services:
   web:
     image: "node-auth-service"
     build: .
-    command: "node server.js"
+    command: "node index.js"
     ports:
       - "3000:3000"
     depends_on:
